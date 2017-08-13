@@ -2,3 +2,5 @@
 *.ttf
 *.json
 *.pdf
+*.png
+Source/*
