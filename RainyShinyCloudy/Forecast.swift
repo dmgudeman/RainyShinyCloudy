@@ -53,7 +53,7 @@ class Forecast {
         print(self._lowTemp)
       }
       
-      if let max = temp["min"] as? Double {
+      if let max = temp["max"] as? Double {
         let kelvinToFarenheitPreDivision = (max * (9/5) - 459.67)
         let kelvinToFarenheit = Double(round(10 * kelvinToFarenheitPreDivision/10))
         self._highTemp = "\(kelvinToFarenheit)"
